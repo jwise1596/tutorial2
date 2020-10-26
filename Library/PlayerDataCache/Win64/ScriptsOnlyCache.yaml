@@ -1,10 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BoxMover
     - CameraScript
     - PlayerScript
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
@@ -53,6 +53,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -66,15 +70,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12160}
     - Class: 114
-      Script: {instanceID: 12408}
+      Script: {instanceID: 12222}
     - Class: 114
-      Script: {instanceID: 12476}
+      Script: {instanceID: 12410}
     - Class: 114
-      Script: {instanceID: 13154}
+      Script: {instanceID: 12478}
     - Class: 114
-      Script: {instanceID: 13466}
+      Script: {instanceID: 13156}
     - Class: 114
-      Script: {instanceID: 13872}
+      Script: {instanceID: 13468}
+    - Class: 114
+      Script: {instanceID: 13874}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -256,6 +262,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BoxMover
+  - hash:
+      serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -304,7 +316,7 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: ba8885765ad8fe055d2176fbae6efcd9
+      Hash: 0e22fb0703b9cc331fbd4a56a91dbf31
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerScript
@@ -545,4 +557,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Desktop/Unity Stuff/Tutorial 2/Tut 2/Builds/Tut 2.exe
+  playerPath: D:/Desktop/Unity Stuff/Tutorial 2/Challenge 2/Tut 2.exe
